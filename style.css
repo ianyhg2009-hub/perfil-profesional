@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header{
+    background: #222;
+    padding: 15px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #00aaff;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección principal */
+.hero{
+    height: 100vh;
+    background: linear-gradient(#00aaff, #0066cc);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+/* Imagen redonda centrada */
+.hero img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+/* Botón */
+.hero button{
+    padding: 8px 18px;
+    background: white;
+    color: #0066cc;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Secciones */
+.section{
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.dark{
+    background: #f2f2f2;
+}
+
+/* Habilidades */
+.skill{
+    margin: 15px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.bar{
+    background: #ccc;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.progress{
+    height: 8px;
+    border-radius: 5px;
+}
+
+.html{
+    width: 85%;
+    background: #e44d26;
+}
+
+.css{
+    width: 70%;
+    background: #264de4;
+}
+
+/* Proyectos */
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    width: 220px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
